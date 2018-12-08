@@ -1,0 +1,32 @@
+* xpenguins 1.2-simpsons1 aka xsimpsons 0.1 (19 June 2000)
+- Bart is there
+- variant2, too
+
+Original xpenguins 1.2 ChangeLog:
+---
+
+* Version 1.2 (22 May 2000)
+- Use the X shape extension to allow penguins to negotiate shaped windows
+- `-rectwin' option available to bypass calculation of window shape if too slow
+- Walker and climber behaviour changed to overcome small obstacles
+- Removed whitespace around most penguins images to 30x30 (from 32x32)
+- Walker image changed so walker actually on window, not 1 pixel above!
+- Fixed bug in ToonAdvance that caused toons to get stuck behind KDE panel
+- Renamed functions in toon.c so that all begin with `Toon'
+- Tumblers now accelerate under gravity until they reach `terminal velocity'
+- Can use `-n' as well as `-penguins' to specify the number of penguins
+- Climbers maintain tendency to climb until they next become faller/tumbler
+- Every timestep perform check that penguins are not in the window region
+- Walkers and climbers now move with the windows they're on (up to a limit)
+- Penguins fall in properly from the very top of the screen
+
+* Version 1.1 (26 February 2000)
+- Use Xpm attribute `closeness' so that 8-bit displays are supported
+- Smoothed the jagged edges of floater image (from Pingus)
+- Added the `-ignorepopups', `-version' and `-quiet' options
+- Second interupt causes bursting penguins to be immediately erased
+- Fixed ToonLocateWindows bug that returned before all windows mapped
+
+* Version 1.0 (28 November 1999)
+- Decided that version numbers less than 1 are silly
+

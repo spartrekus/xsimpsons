@@ -1,0 +1,87 @@
+XSIMPSONS - the Simpsons walking along the tops of your windows
+
+Version 0.1: you get only Bart!
+
+AUTHOR: Stephan Beyer <PH-Linex@gmx.net> 2000
+
+a Simpsons derivate from the original XPenguins...
+
+I would be happy that xsimpsons will become integrated into xpenguins and
+with a gtk configuration tool you can set-up if you want penguins or
+Simpsons... That would be great!
+It may also be included in WinPenguins or made to WinSimpsons.
+This software is without any warranty...
+!!! Please notice that The Simpsons are created by Matt Groening and
+    are the trademarked and copyrighted property of Twentieth Century
+    Fox Film Corpoeration...
+    I didn't ask for permission, because I didn't found where and why,
+    and this is only a free fan software, without commercial aim.
+    I take this software away, whenever the Twentieth Century Fox Film
+    Corpoeration wants.... !!!
+
+
+(xpenguins README here)
+---
+
+Copyright (C) 1999, 2000  Robin Hogan
+Latest version: 1.2 (22 May 2000)
+
+
+INTRODUCTION
+
+XPenguins is a simple program that animates a number of penguins that
+fall from the top of the screen, walk along the top of windows, up
+the side of windows, up the side of the screen, and sometimes even
+levitate with their genetically-modified go-go-gadget 'copter
+ability. Use the `-h' option to see a list of current options -
+currently you can specify the display to send the penguins to, the
+delay between frames and the number of penguins that are created.
+
+
+LICENSE
+
+This program is released under the GNU public license - see COPYING
+
+
+TODO
+
+Write GUI front end(s) - the first will be an applet for GNOME, but
+with a little modularisation of the code it should be easy to write
+GUIs for other environments (KDE etc) and update them all together. 
+
+Add some more penguin types.
+
+I'd also be interested to see derivatives of this program that use
+other toons completely - e.g. Buzz Lightyear, Sonic the Hedgehog, The
+Simpsons etc. 
+
+
+ACKNOWLEDGEMENTS
+
+Inspiration was provided by Rick Jansen <rick@sara.nl> in the form of
+the classic `xsnow'.
+
+The penguin images were taken from `Pingus', a free lemmings clone
+for Linux (http://pingus.seul.org/), and were designed by Joel Fauche
+<joel.fauche@wanadoo.fr>. 
+
+Xpenguins uses vroot.h for use with some `virtual' window managers.
+vroot.h is copyright 1991 by Andreas Stolcke, copyright 1990 by
+Solbourne Computer Inc. <stolcke@ICSI.Berkeley.EDU>. 
+
+
+AUTHOR
+
+Robin Hogan <R.J.Hogan@reading.ac.uk>
+
+The xpenguins homepage is  located at: 
+	http://www.met.rdg.ac.uk/~swrhgnrj/xpenguins/
+
+
+SEE ALSO
+
+Michael Vines <isamu@neomueller.org> has rewritten the program for
+Microsoft Windows and called it `WinPenguins' - visit: 
+	http://neomueller.org/~isamu/winpenguins/ 
+
+    

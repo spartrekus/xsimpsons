@@ -1,0 +1,23 @@
+The Makefile with this distribution should work under Linux, but may
+need editing for other UNIX platforms.
+
+Download xsimpsons from: http://lightning.prohosting.com/~sbeyer/
+Download xpenguins from: http://www.met.rdg.ac.uk/~swrhgnrj/xpenguins/
+
+To compile, type:
+
+	make clean
+	make
+
+This creates an executable in the current directory called
+`xsimpsons'. You can then put this and the manual entry in suitable
+directories - for example, as root type: 
+
+	install -s -m 755 -o 0 -g 0 xsimpsons /usr/X11R6/bin/xsimpsons
+	install -m 644 -o 0 -g 0 xpenguins.1 /usr/X11R6/man/man1
+
+To change and compile  the variant type:
+
+	make chvar
+	make clean
+	make

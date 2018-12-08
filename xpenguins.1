@@ -1,0 +1,73 @@
+.TH XPenguins 1 "18 May 2000" "XPenguins 1.2"
+.SH NAME
+xpenguins \- cute little penguins that walk along the tops of your windows
+.SH SYNOPSIS
+.B xpenguins
+[-option ...]
+.SH DESCRIPTION
+.IR XPenguins
+animates a friendly family of penguins in your root window. They drop
+in from the top of the screen, walk along the tops of your windows,
+up the side of your windows, up the side of the screen, and sometimes
+even levitate with their genetically-modified go-go-gadget 'copter
+ability. Be careful when you move windows as the little guys squash
+easily. If you send the program an interupt signal (such as by
+hitting Ctrl-C) they will burst. 
+.SH OPTIONS
+.TP 8
+.BI "-display" " display"
+Send the penguins to the specified display.
+.TP 8
+.BI "\fB-n\fP, \fB-penguins\fP" " number"
+The number of penguins to start. The default is 8 and the maximum is 256.
+.TP 8
+.BI "-delay" " delay"
+The delay between each frame in milliseconds. Default is 50.
+.TP 8
+.B "-ignorepopups"
+Penguins fall through `popup' windows (those with the save-under
+attribute set). Note that this includes the KDE panel.
+.TP 8
+.B "-rectwin"
+Penguins regard all windows as rectangular. This option results in
+faster calculation of window positions, but if you use one of those
+fancy new window managers with shaped windows then your penguins
+might sometimes look like they're walking on thin air. 
+.TP 8
+.B  "\fB-q\fP, \fB-quiet\fP, \fB--quiet\fP"
+Suppress the anouncement that the penguins are exploding when an
+interupt is received.
+.TP 8
+.B "\fB-v\fP, \fB-version\fP, \fB--version\fP"
+Print out the current version.
+.TP 8
+.B "\fB-h\fP, \fB-?\fP, \fB-help\fP, \fB--help\fP"
+Print out a message describing the available options.
+.SH AUTHOR
+Robin Hogan <R.J.Hogan@reading.ac.uk>.
+.SH CREDITS
+Inspiration provided by Rick Jansen <rick@sara.nl> in the form of the
+classic 
+.IR xsnow . 
+The penguin images were taken from 
+.IR Pingus ,
+a free lemmings clone that can be found at <http://pingus.seul.org/>,
+and were designed by Joel Fauche <joel.fauche@wanadoo.fr>.
+.IR XPenguins
+uses vroot.h for use with virtual window managers. vroot.h
+is copyright 1991 by Andreas Stolcke, copyright 1990 by Solbourne
+Computer Inc. <stolcke@ICSI.Berkeley.EDU>.
+.SH NOTES
+.IR XPenguins
+can load an X server and/or network (although the CPU time used is
+small), and if a large number of penguins are spawned then they may
+begin to flicker, depending on the speed of the X server. 
+.P
+The
+.IR xpenguins
+homepage is located at:
+.P
+http://www.met.rdg.ac.uk/~swrhgnrj/xpenguins/
+
+.SH "SEE ALSO"
+xsnow(1), xroach(1), pingus(6) 
